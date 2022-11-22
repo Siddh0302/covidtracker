@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+}
+
+.h1{
+ text-align:center ;
+ color: whitesmoke;
+}
+
+.h2{
+    text-align:center ;
+    color: whitesmoke;
+   }
+
+.card1{
+    width: 97%;
+    height: 35vh;
+    display: grid;
+    background-color:cornflowerblue;
+    text-align: center;
+    align-items: center;
+    transition: transform  100ms ease-in-out; 
+   }
+
+ .card2{  
+    width: 97%;
+    height: 35vh;
+    display: grid;
+    background-color:coral  ;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    transition: transform  100ms ease-in-out;
+  }
+
+  .card3{
+    width: 97%;
+    height: 35vh;
+    display: grid;
+    background-color:grey  ;
+    text-align: center;
+    align-items: center;
+    transition: transform  100ms ease-in-out;
+    /* margin: 10px; */
+    }
+
+    .card4{
+    width: 97%;
+    height: 35vh;
+    display: grid;
+    background-color:darkseagreen ;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    transition: transform  100ms ease-in-out;
+    }
+
+    .card5{
+    width: 97%;
+    height: 35vh;
+    display: grid;
+    background-color:paleturquoise ;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+    transition: transform  100ms ease-in-out;
+    }
+
+    .card6{
+    width: 97%;
+    height: 35vh;
+    display: grid;
+    background-color:navajowhite  ;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: transform  100ms ease-in-out;
+    }
+
+    .card1:hover{
+        transform:scale(1.1, 1.1);
+    }
+
+    .card2:hover{
+        transform:scale(1.1, 1.1);
+    }
+
+    .card3:hover{
+        transform:scale(1.1, 1.1);
+    }
+
+    .card4:hover{
+        transform:scale(1.1, 1.1);
+    }
+
+    .card5:hover{
+        transform:scale(1.1, 1.1);
+    }
+
+    .card6:hover{
+        transform:scale(1.1, 1.1);
+    }
+
+    .card__name{
+        font-family:fantasy;
+        font-size: 25px;
+    }
+
+    .card_total{
+        font-family: monospace;
+        font-size:50px;
+        text-shadow:2px 2px 2px black ;
+    }
+   
+   ul{
+    columns: 3;
+    align-items: center;
+   }
